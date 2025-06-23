@@ -51,6 +51,9 @@ test-output/
 testng-results.xml
 testng-failed.xml
 
+# Surefire Reports
+target/surefire-reports/
+
 # Allure
 allure-results/
 allure-report/
