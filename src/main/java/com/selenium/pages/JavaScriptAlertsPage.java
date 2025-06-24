@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class JavaScriptAlertsPage {
     
-    private WebDriver driver;
+    private final WebDriver driver;
     
     // Page URL
     private static final String PAGE_URL = "https://the-internet.herokuapp.com/javascript_alerts";
@@ -14,16 +14,16 @@ public class JavaScriptAlertsPage {
     // Locators
     public static final
     By JS_ALERT_BUTTON = By.xpath("//button[contains(text(),'Click for JS Alert')]");
-    private static final
+    public static final
     By JS_CONFIRM_BUTTON = By.xpath("//button[contains(text(),'Click for JS Confirm')]");
-    private static final
+    public static final
     By JS_PROMPT_BUTTON = By.xpath("//button[contains(text(),'Click for JS Prompt')]");
     
     // Alternative XPaths as requested
-    private static final
+    public static final
     By JS_CONFIRM_BUTTON_XPATH1 = By.xpath("/html/body/div[2]/div/div/ul/li[2]/button");
 
-    private static final
+    public static final
     By JS_CONFIRM_BUTTON_XPATH2 = By.xpath("//*[@id=\"content\"]/div/ul/li[2]/button");
     private static final By JS_CONFIRM_BUTTON_CSS = By.cssSelector("#content > div > ul > li:nth-child(2) > button");
     

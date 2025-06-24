@@ -35,7 +35,7 @@ public class JavaScriptAlertsTest extends BaseTest {
         
         // Click on JS Confirm button using the requested XPath
         clickElement(By.xpath("/html/body/div[2]/div/div/ul/li[2]/button"));
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         
         // Wait for alert and dismiss it
         handleAlert(false); // false means dismiss/cancel

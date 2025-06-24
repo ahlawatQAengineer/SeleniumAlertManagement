@@ -3,8 +3,12 @@
 <suite name="Selenium Alert Management Suite" parallel="tests" thread-count="1">
     <test name="JavaScript Alerts Test">
         <classes>
-            <class name="com.selenium.tests.JavaScriptAlertsTest"/>
-            <class name="com.selenium.tests.CompareElementText"/>
+<!--            <class name="com.selenium.tests.JavaScriptAlertsTest"/>-->
+<!--            <class name="com.selenium.tests.CompareElementTextTest"/>-->
+            <class name="com.selenium.tests.GetAllElementsTest"/>
+
+
+
 
         </classes>
     </test>
