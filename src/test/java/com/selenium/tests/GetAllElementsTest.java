@@ -28,11 +28,9 @@ public void printAllElement(){
 
     for(WebElement abc :  myElements){
         System.out.println("Xpath of the selected element is : " + abc);
-        System.out.println("<----------------------------------------->");
-        System.out.println("<----------------------------------------->");
-
-
     }
+    System.out.println("<----------------------------------------->");
+    System.out.println("<----------------------------------------->");
 }
 
 @Test
