@@ -1,8 +1,7 @@
-package com.selenium.tests;
+package com.selenium.tests.Elements;
 
 import com.selenium.base.BaseTest;
 import com.selenium.pages.ElementHomePage;
-import com.selenium.pages.JavaScriptAlertsPage;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;

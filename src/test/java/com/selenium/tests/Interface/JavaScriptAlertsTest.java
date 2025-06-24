@@ -1,4 +1,4 @@
-package com.selenium.tests;
+package com.selenium.tests.Interface;
 
 import com.selenium.base.BaseTest;
 import com.selenium.pages.JavaScriptAlertsPage;

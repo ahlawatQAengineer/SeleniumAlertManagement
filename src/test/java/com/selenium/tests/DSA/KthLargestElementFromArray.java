@@ -1,4 +1,4 @@
-package com.selenium.tests;
+package com.selenium.tests.DSA;
 
 import java.util.Arrays;
 

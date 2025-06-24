@@ -1,4 +1,4 @@
-package com.selenium.tests;
+package com.selenium.tests.DSA;
 
 public class LongestCommonSubstring {
 
@@ -15,7 +15,6 @@ public class LongestCommonSubstring {
 
 
     public static void longestCommonSequence(String abc, String xyz){
-
 
 
     }

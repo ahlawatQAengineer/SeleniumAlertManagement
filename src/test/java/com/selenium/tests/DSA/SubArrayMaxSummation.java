@@ -1,6 +1,4 @@
-package com.selenium.tests;
-
-import java.lang.reflect.Array;
+package com.selenium.tests.DSA;
 
 public class SubArrayMaxSummation {
 
