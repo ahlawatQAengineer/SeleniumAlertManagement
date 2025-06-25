@@ -3,10 +3,12 @@
 <suite name="Selenium Alert Management Suite" parallel="tests" thread-count="1">
     <test name="JavaScript Alerts Test">
         <classes>
-            <class name="com.selenium.tests.Interface.JavaScriptAlertsTest"/>
-            <class name="com.selenium.tests.Elements.CompareElementTextTest"/>
-            <class name="com.selenium.tests.Elements.GetAllElementsTest"/>
-            <class name="com.selenium.tests.Elements.CheckBoxesTest"/>
+<!--            <class name="com.selenium.tests.Interface.JavaScriptAlertsTest"/>-->
+<!--            <class name="com.selenium.tests.Elements.CompareElementTextTest"/>-->
+<!--            <class name="com.selenium.tests.Elements.GetAllElementsTest"/>-->
+<!--            <class name="com.selenium.tests.Elements.CheckBoxesTest"/>-->
+            <class name="com.selenium.tests.Projects.LaunchRediffTest"/>
+
 
 
 
