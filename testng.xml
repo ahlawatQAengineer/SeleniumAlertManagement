@@ -7,13 +7,14 @@
 <!--            <class name="com.selenium.tests.Elements.CompareElementTextTest"/>-->
 <!--            <class name="com.selenium.tests.Elements.GetAllElementsTest"/>-->
 <!--            <class name="com.selenium.tests.Elements.CheckBoxesTest"/>-->
-            <class name="com.selenium.tests.Projects.LaunchRediffTest"/>
-
-
-
-
-
-
+<!--            <class name="com.selenium.tests.Projects.LaunchRediffTest"/>-->
         </classes>
     </test>
-</suite> 
+    <test name="LinkedIn Automation Test">
+        <classes>
+        </classes>
+    </test>
+</suite>
+
+
+
