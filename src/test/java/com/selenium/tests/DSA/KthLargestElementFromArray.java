@@ -4,11 +4,7 @@ import java.util.Arrays;
 
 public class KthLargestElementFromArray {
 
-
-
     //find the nth largest element of the array without sorting
-
-
 public  static void  main(String[] args){
     int Nth  = 4;
     int[] newArray = {87, 12, 55, 93, 2, 71, 38, 99, 4, 60, 15, 82, 29, 5, 70, 41, 96, 18, 33, 65};

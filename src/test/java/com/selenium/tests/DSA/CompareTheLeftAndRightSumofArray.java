@@ -9,7 +9,6 @@ public class CompareTheLeftAndRightSumofArray {
         int[] simpleArray = {1,2,1,2,1};
 
         leftAndRightSum(arr);
-
         pivotIndexUsingSum(arr);
     }
 
