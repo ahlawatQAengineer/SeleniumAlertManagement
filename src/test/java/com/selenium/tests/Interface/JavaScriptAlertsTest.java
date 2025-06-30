@@ -42,6 +42,7 @@ public class JavaScriptAlertsTest extends BaseTest {
         
         // Wait for result element and get text
         String resultText = getElementText(By.id("result"));
+        System.out.println(resultText);
         
         // Verify result contains "Cancel"
         Assert.assertTrue(resultText.contains("Cancel"), 
